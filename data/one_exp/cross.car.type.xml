@@ -1,0 +1,17 @@
+<additional>
+<vType id="Car"  vClass="passenger" accel="0.8" decel="4.5" sigma="0.5" length="3" minGap="1" maxSpeed="15" guiShape="passenger/sedan"/>
+<vType id="Car2"  vClass="taxi" accel="0.8" decel="4.5" sigma="0.5" length="3" minGap="1" maxSpeed="15"/>
+<route id="route1" edges="edge1-0 edge0-2"/>
+<route id="route2" edges="edge2-0 edge0-1"/>
+<route id="route3" edges="edge3-0 edge0-4"/>
+<route id="route4" edges="edge4-0 edge0-3"/>
+<!--<route id="routewe" edges="edge1-0 edge0-3 gneE5 gneE6 gneE11"/>-->
+<!--<route id="routeew" edges="edge2-0 edge0-4 -gneE2 -gneE1 gneE10"/>-->
+<!--<route id="routesn" edges="edge3-0 edge0-2 gneE7 -gneE9 gneE13"/>-->
+<!--<route id="routens" edges="edge4-0 edge0-1 gneE3 gneE4 gneE12"/>-->
+<route id="routewe" edges="-gneE10 gneE3 gneE4 gneE5 gneE6 gneE11"/>
+<route id="routeew" edges="-gneE11 gneE7 -gneE9 -gneE2 -gneE1 gneE10"/>
+<route id="routesn" edges="-gneE12 gneE5 gneE6 gneE7 -gneE9 gneE13"/>
+<route id="routens" edges="-gneE13 -gneE2 -gneE1 gneE3 gneE4 gneE12"/>
+
+</additional>

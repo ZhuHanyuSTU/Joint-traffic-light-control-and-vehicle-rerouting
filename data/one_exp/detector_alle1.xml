@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/14/19 10:25:20 by Eclipse SUMO netedit Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross\data\one_exp\multi_cross.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross\data\one_exp\multi_cross.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<additional>
+    <e1Detector id="e1Detector_-gneE10_0_2" lane="-gneE10_0" pos="10.00" freq="900.00" file="e1Detector_-gneE10_0_2.xml"/>
+    <e1Detector id="e1Detector_-gneE10_1_0" lane="-gneE10_1" pos="10.00" freq="900.00" file="e1Detector_-gneE10_1_0.xml"/>
+    <e1Detector id="e1Detector_-gneE10_2_1" lane="-gneE10_2" pos="10.00" freq="900.00" file="e1Detector_-gneE10_2_1.xml"/>
+    <e1Detector id="e1Detector_-gneE11_0_14" lane="-gneE11_0" pos="10.00" freq="900.00" file="e1Detector_-gneE11_0_14.xml"/>
+    <e1Detector id="e1Detector_-gneE11_1_12" lane="-gneE11_1" pos="10.00" freq="900.00" file="e1Detector_-gneE11_1_12.xml"/>
+    <e1Detector id="e1Detector_-gneE11_2_13" lane="-gneE11_2" pos="10.00" freq="900.00" file="e1Detector_-gneE11_2_13.xml"/>
+    <e1Detector id="e1Detector_-gneE12_0_26" lane="-gneE12_0" pos="10.00" freq="900.00" file="e1Detector_-gneE12_0_26.xml"/>
+    <e1Detector id="e1Detector_-gneE12_1_25" lane="-gneE12_1" pos="10.00" freq="900.00" file="e1Detector_-gneE12_1_25.xml"/>
+    <e1Detector id="e1Detector_-gneE12_2_24" lane="-gneE12_2" pos="10.00" freq="900.00" file="e1Detector_-gneE12_2_24.xml"/>
+    <e1Detector id="e1Detector_-gneE13_0_34" lane="-gneE13_0" pos="10.00" freq="900.00" file="e1Detector_-gneE13_0_34.xml"/>
+    <e1Detector id="e1Detector_-gneE13_1_35" lane="-gneE13_1" pos="10.00" freq="900.00" file="e1Detector_-gneE13_1_35.xml"/>
+    <e1Detector id="e1Detector_-gneE13_2_36" lane="-gneE13_2" pos="10.00" freq="900.00" file="e1Detector_-gneE13_2_36.xml"/>
+    <e1Detector id="e1Detector_-gneE1_0_23" lane="-gneE1_0" pos="250.00" freq="900.00" file="e1Detector_-gneE1_0_23.xml"/>
+    <e1Detector id="e1Detector_-gneE1_1_41" lane="-gneE1_1" pos="250.00" freq="900.00" file="e1Detector_-gneE1_1_41.xml"/>
+    <e1Detector id="e1Detector_-gneE1_2_42" lane="-gneE1_2" pos="250.00" freq="900.00" file="e1Detector_-gneE1_2_42.xml"/>
+    <e1Detector id="e1Detector_-gneE2_2_22" lane="-gneE2_2" pos="250.00" freq="900.00" file="e1Detector_-gneE2_2_22.xml"/>
+    <e1Detector id="e1Detector_-gneE9_0_33" lane="-gneE9_0" pos="250.00" freq="900.00" file="e1Detector_-gneE9_0_33.xml"/>
+    <e1Detector id="e1Detector_-gneE9_1_20" lane="-gneE9_1" pos="250.00" freq="900.00" file="e1Detector_-gneE9_1_20.xml"/>
+    <e1Detector id="e1Detector_-gneE9_2_21" lane="-gneE9_2" pos="250.00" freq="900.00" file="e1Detector_-gneE9_2_21.xml"/>
+    <e1Detector id="e1Detector_edge0-1_1_17" lane="edge0-1_1" pos="10.00" freq="900.00" file="e1Detector_edge0-1_1_17.xml"/>
+    <e1Detector id="e1Detector_edge0-1_2_18" lane="edge0-1_2" pos="10.00" freq="900.00" file="e1Detector_edge0-1_2_18.xml"/>
+    <e1Detector id="e1Detector_edge0-2_1_6" lane="edge0-2_1" pos="10.00" freq="900.00" file="e1Detector_edge0-2_1_6.xml"/>
+    <e1Detector id="e1Detector_edge0-2_2_5" lane="edge0-2_2" pos="10.00" freq="900.00" file="e1Detector_edge0-2_2_5.xml"/>
+    <e1Detector id="e1Detector_edge0-3_1_39" lane="edge0-3_1" pos="10.00" freq="900.00" file="e1Detector_edge0-3_1_39.xml"/>
+    <e1Detector id="e1Detector_edge0-3_2_40" lane="edge0-3_2" pos="10.00" freq="900.00" file="e1Detector_edge0-3_2_40.xml"/>
+    <e1Detector id="e1Detector_edge0-4_1_30" lane="edge0-4_1" pos="10.00" freq="900.00" file="e1Detector_edge0-4_1_30.xml"/>
+    <e1Detector id="e1Detector_edge0-4_2_29" lane="edge0-4_2" pos="10.00" freq="900.00" file="e1Detector_edge0-4_2_29.xml"/>
+    <e1Detector id="e1Detector_edge1-0_1_3" lane="edge1-0_1" pos="10.00" freq="900.00" file="e1Detector_edge1-0_1_3.xml"/>
+    <e1Detector id="e1Detector_edge1-0_2_4" lane="edge1-0_2" pos="10.00" freq="900.00" file="e1Detector_edge1-0_2_4.xml"/>
+    <e1Detector id="e1Detector_edge2-0_1_15" lane="edge2-0_1" pos="10.00" freq="900.00" file="e1Detector_edge2-0_1_15.xml"/>
+    <e1Detector id="e1Detector_edge2-0_2_16" lane="edge2-0_2" pos="10.00" freq="900.00" file="e1Detector_edge2-0_2_16.xml"/>
+    <e1Detector id="e1Detector_edge3-0_1_28" lane="edge3-0_1" pos="10.00" freq="900.00" file="e1Detector_edge3-0_1_28.xml"/>
+    <e1Detector id="e1Detector_edge3-0_2_27" lane="edge3-0_2" pos="10.00" freq="900.00" file="e1Detector_edge3-0_2_27.xml"/>
+    <e1Detector id="e1Detector_edge4-0_1_37" lane="edge4-0_1" pos="10.00" freq="900.00" file="e1Detector_edge4-0_1_37.xml"/>
+    <e1Detector id="e1Detector_edge4-0_2_38" lane="edge4-0_2" pos="10.00" freq="900.00" file="e1Detector_edge4-0_2_38.xml"/>
+    <e1Detector id="e1Detector_gneE3_2_7" lane="gneE3_2" pos="250.00" freq="900.00" file="e1Detector_gneE3_2_7.xml"/>
+    <e1Detector id="e1Detector_gneE4_0_43" lane="gneE4_0" pos="250.00" freq="900.00" file="e1Detector_gneE4_0_43.xml"/>
+    <e1Detector id="e1Detector_gneE4_1_9" lane="gneE4_1" pos="250.00" freq="900.00" file="e1Detector_gneE4_1_9.xml"/>
+    <e1Detector id="e1Detector_gneE4_2_8" lane="gneE4_2" pos="250.00" freq="900.00" file="e1Detector_gneE4_2_8.xml"/>
+    <e1Detector id="e1Detector_gneE5_2_10" lane="gneE5_2" pos="250.00" freq="900.00" file="e1Detector_gneE5_2_10.xml"/>
+    <e1Detector id="e1Detector_gneE6_0_11" lane="gneE6_0" pos="250.00" freq="900.00" file="e1Detector_gneE6_0_11.xml"/>
+    <e1Detector id="e1Detector_gneE6_1_31" lane="gneE6_1" pos="250.00" freq="900.00" file="e1Detector_gneE6_1_31.xml"/>
+    <e1Detector id="e1Detector_gneE6_2_32" lane="gneE6_2" pos="250.00" freq="900.00" file="e1Detector_gneE6_2_32.xml"/>
+    <e1Detector id="e1Detector_gneE7_2_19" lane="gneE7_2" pos="250.00" freq="900.00" file="e1Detector_gneE7_2_19.xml"/>
+</additional>

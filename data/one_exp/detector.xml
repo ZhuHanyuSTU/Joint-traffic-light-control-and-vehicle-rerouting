@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/15/19 16:33:52 by Eclipse SUMO netedit Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross\data\one_exp\multi_cross.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross\data\one_exp\multi_cross.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<additional>
+    <e1Detector id="e1Detector_edge1-0_1_3" lane="edge1-0_1" pos="10.00" freq="900.00" file="e1Detector_edge1-0_1_3.xml"/>
+    <e1Detector id="e1Detector_edge1-0_2_4" lane="edge1-0_2" pos="10.00" freq="900.00" file="e1Detector_edge1-0_2_4.xml"/>
+    <e1Detector id="e1Detector_edge2-0_1_15" lane="edge2-0_1" pos="10.00" freq="900.00" file="e1Detector_edge2-0_1_15.xml"/>
+    <e1Detector id="e1Detector_edge2-0_2_16" lane="edge2-0_2" pos="10.00" freq="900.00" file="e1Detector_edge2-0_2_16.xml"/>
+    <e1Detector id="e1Detector_edge3-0_1_28" lane="edge3-0_1" pos="10.00" freq="900.00" file="e1Detector_edge3-0_1_28.xml"/>
+    <e1Detector id="e1Detector_edge3-0_2_27" lane="edge3-0_2" pos="10.00" freq="900.00" file="e1Detector_edge3-0_2_27.xml"/>
+    <e1Detector id="e1Detector_edge4-0_1_37" lane="edge4-0_1" pos="10.00" freq="900.00" file="e1Detector_edge4-0_1_37.xml"/>
+    <e1Detector id="e1Detector_edge4-0_2_38" lane="edge4-0_2" pos="10.00" freq="900.00" file="e1Detector_edge4-0_2_38.xml"/>
+    <e1Detector id="e1Detector_edge1-0_3_5" lane="edge1-0_3" pos="50.00" freq="900.00" file="e1Detector_edge1-0_3_5.xml"/>
+    <e1Detector id="e1Detector_edge2-0_3_17" lane="edge2-0_3" pos="50.00" freq="900.00" file="e1Detector_edge2-0_3_17.xml"/>
+    <e1Detector id="e1Detector_edge3-0_3_29" lane="edge3-0_3" pos="50.00" freq="900.00" file="e1Detector_edge3-0_3_29.xml"/>
+    <e1Detector id="e1Detector_edge4-0_3_39" lane="edge4-0_3" pos="50.00" freq="900.00" file="e1Detector_edge4-0_3_39.xml"/>
+    <e1Detector id="e1Detector_edge1-0_1_3_outgoing" lane="edge1-0_1" pos="-0.001" freq="900.00" file="e1Detector_edge1-0_1_3_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge1-0_2_4_outgoing" lane="edge1-0_2" pos="-0.001" freq="900.00" file="e1Detector_edge1-0_2_4_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge2-0_1_15_outgoing" lane="edge2-0_1" pos="-0.001" freq="900.00" file="e1Detector_edge2-0_1_15_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge2-0_2_16_outgoing" lane="edge2-0_2" pos="-0.001" freq="900.00" file="e1Detector_edge2-0_2_16_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge3-0_1_28_outgoing" lane="edge3-0_1" pos="-0.001" freq="900.00" file="e1Detector_edge3-0_1_28_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge3-0_2_27_outgoing" lane="edge3-0_2" pos="-0.001" freq="900.00" file="e1Detector_edge3-0_2_27_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge4-0_1_37_outgoing" lane="edge4-0_1" pos="-0.001" freq="900.00" file="e1Detector_edge4-0_1_37_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge4-0_2_38_outgoing" lane="edge4-0_2" pos="-0.001" freq="900.00" file="e1Detector_edge4-0_2_38_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge1-0_3_5_outgoing" lane="edge1-0_3" pos="-0.001" freq="900.00" file="e1Detector_edge1-0_3_5_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge2-0_3_17_outgoing" lane="edge2-0_3" pos="-0.001" freq="900.00" file="e1Detector_edge2-0_3_17_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge3-0_3_29_outgoing" lane="edge3-0_3" pos="-0.001" freq="900.00" file="e1Detector_edge3-0_3_29_outgoing.xml"/>
+    <e1Detector id="e1Detector_edge4-0_3_39_outgoing" lane="edge4-0_3" pos="-0.001" freq="900.00" file="e1Detector_edge4-0_3_39_outgoing.xml"/>
+</additional>

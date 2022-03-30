@@ -1,0 +1,18 @@
+<routes>
+    <flow id="01" begin="0" end="15000000" from="-gneE10" to="gneE11" departPos="base" departLane="1" departSpeed="5.0" probability = "0.3" via="edge1-0 edge0-2" type="Car"/>
+    <flow id="02" begin="0" end="15000000" from="-gneE12" to="gneE13" departPos="base" departLane="1" departSpeed="5.0" probability = "0.3" via="edge3-0 edge0-4" type="Car"/>
+    <flow id="03" begin="0" end="15000000" from="-gneE11" to="gneE10" departPos="base" departLane="1" departSpeed="5.0" probability = "0.3" via="edge2-0 edge0-1" type="Car"/>
+    <flow id="04" begin="0" end="15000000" from="-gneE13" to="gneE12" departPos="base" departLane="1" departSpeed="5.0" probability = "0.3" via="edge4-0 edge0-3" type="Car"/>
+    <flow id="11" begin="0" end="15000000" from="-gneE18" to="gneE20" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="-gneE3 gneE1"/>
+    <flow id="12" begin="0" end="15000000" from="-gneE17" to="gneE14" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="gneE6 gneE7"/>
+    <flow id="13" begin="0" end="15000000" from="-gneE16" to="gneE19" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="-gneE5 -gneE4"/>
+    <flow id="14" begin="0" end="15000000" from="-gneE15" to="gneE21" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="-gneE9 -gneE2"/>
+    <flow id="21" begin="0" end="15000000" from="-gneE14" to="gneE17" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="-gneE7 -gneE6"/>
+    <flow id="22" begin="0" end="15000000" from="-gneE20" to="gneE18" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="-gneE1 gneE3"/>
+    <flow id="23" begin="0" end="15000000" from="-gneE21" to="gneE15" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="gneE2 gneE9"/>
+    <flow id="24" begin="0" end="15000000" from="-gneE19" to="gneE16" departPos="base" departLane="random" departSpeed="5.0" probability = "0.05" via="gneE4 gneE5"/>
+    <flow id="25" begin="0" end="15000000" from="-gneE10" to="edge0-4" departPos="base" departLane="2" departSpeed="5.0" probability = "0.05" via="edge1-0" type="Car2"/>
+    <flow id="26" begin="0" end="15000000" from="-gneE12" to="edge0-1" departPos="base" departLane="2" departSpeed="5.0" probability = "0.05" via="edge3-0" type="Car2"/>
+    <flow id="27" begin="0" end="15000000" from="-gneE11" to="edge0-3" departPos="base" departLane="2" departSpeed="5.0" probability = "0.05" via="edge2-0" type="Car2"/>
+    <flow id="28" begin="0" end="15000000" from="-gneE13" to="edge0-2" departPos="base" departLane="2" departSpeed="5.0" probability = "0.05" via="edge4-0" type="Car2"/>
+</routes>

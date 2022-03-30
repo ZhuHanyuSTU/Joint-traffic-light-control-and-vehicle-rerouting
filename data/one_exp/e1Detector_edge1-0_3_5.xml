@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/16/21 18:09:04 by Eclipse SUMO GUI Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="c:\Users\Administrator\OneDrive\IoVTNC_Revise_version_Simulation\20210210_Exp_0.40.2\20210210_TD3_addLTF_ReviseModelReward/data/one_exp/multi_cross.net.xml"/>
+        <route-files value="c:\Users\Administrator\OneDrive\IoVTNC_Revise_version_Simulation\20210210_Exp_0.40.2\20210210_TD3_addLTF_ReviseModelReward/data/one_exp/various_flows_4_0.40.2.xml"/>
+        <additional-files value="c:\Users\Administrator\OneDrive\IoVTNC_Revise_version_Simulation\20210210_Exp_0.40.2\20210210_TD3_addLTF_ReviseModelReward/data/one_exp/cross.tls.switch.xml,c:\Users\Administrator\OneDrive\IoVTNC_Revise_version_Simulation\20210210_Exp_0.40.2\20210210_TD3_addLTF_ReviseModelReward/data/one_exp/cross.car.type.xml,c:\Users\Administrator\OneDrive\IoVTNC_Revise_version_Simulation\20210210_Exp_0.40.2\20210210_TD3_addLTF_ReviseModelReward/data/one_exp/detector.xml"/>
+    </input>
+
+    <processing>
+        <ignore-junction-blocker value="1"/>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="1000"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="5341"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="900.00" id="e1Detector_edge1-0_3_5" nVehContrib="9" flow="36.00" occupancy="0.28" speed="10.86" length="3.00" nVehEntered="9"/>
+    <interval begin="900.00" end="1800.00" id="e1Detector_edge1-0_3_5" nVehContrib="11" flow="44.00" occupancy="0.33" speed="11.16" length="3.00" nVehEntered="11"/>
+    <interval begin="1800.00" end="2700.00" id="e1Detector_edge1-0_3_5" nVehContrib="27" flow="108.00" occupancy="0.87" speed="11.28" length="3.00" nVehEntered="27"/>
+    <interval begin="2700.00" end="3600.00" id="e1Detector_edge1-0_3_5" nVehContrib="11" flow="44.00" occupancy="0.32" speed="11.42" length="3.00" nVehEntered="11"/>
+    <interval begin="3600.00" end="4500.00" id="e1Detector_edge1-0_3_5" nVehContrib="12" flow="48.00" occupancy="0.37" speed="11.05" length="3.00" nVehEntered="12"/>
+    <interval begin="4500.00" end="5400.00" id="e1Detector_edge1-0_3_5" nVehContrib="20" flow="80.00" occupancy="0.71" speed="10.81" length="3.00" nVehEntered="20"/>
+    <interval begin="5400.00" end="5401.00" id="e1Detector_edge1-0_3_5" nVehContrib="0" flow="0.00" occupancy="0.00" speed="-1.00" length="-1.00" nVehEntered="0"/>
+</detector>

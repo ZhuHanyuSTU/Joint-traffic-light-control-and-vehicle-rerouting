@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/14/19 10:59:23 by Eclipse SUMO GUI Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross/data/one_exp/multi_cross.net.xml"/>
+        <route-files value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross/data/one_exp/cross.2phases_rou01_equal_300s.xml"/>
+        <additional-files value="C:\Users\Administrator\Desktop\DDPG_work_multi_cross/data/one_exp/cross.tls.switch.xml,C:\Users\Administrator\Desktop\DDPG_work_multi_cross/data/one_exp/cross.car.type.xml,C:\Users\Administrator\Desktop\DDPG_work_multi_cross/data/one_exp/detector.xml"/>
+    </input>
+
+    <processing>
+        <ignore-junction-blocker value="1"/>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="1000"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="7174"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="159.00" id="e1Detector_-gneE10_1_0" nVehContrib="64" flow="1449.06" occupancy="25.57" speed="7.94" length="5.00" nVehEntered="65"/>
+</detector>
